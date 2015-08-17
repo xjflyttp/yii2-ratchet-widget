@@ -8,7 +8,7 @@ use yii\web\AssetBundle;
  *
  * @author xjflyttp <xjflyttp@gmail.com>
  */
-class RatchetAndroidAsset extends AssetBundle
+class RatchetIosAsset extends AssetBundle
 {
 
     public $sourcePath = '@bower/ratchet';
