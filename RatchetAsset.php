@@ -10,8 +10,7 @@ use yii\web\AssetBundle;
  */
 class RatchetAsset extends AssetBundle
 {
-
-    public $sourcePath = '@bower/ratchet';
+    public $sourcePath = '@bower/ratchet/dist';
     public $basePath = '@webroot/assets';
     public $js = [
         'js/ratchet.js',
@@ -19,6 +18,4 @@ class RatchetAsset extends AssetBundle
     public $css = [
         'css/ratchet.css',
     ];
-    public $depends = [];
-
 }

@@ -10,8 +10,7 @@ use yii\web\AssetBundle;
  */
 class RatchetAndroidAsset extends AssetBundle
 {
-
-    public $sourcePath = '@bower/ratchet';
+    public $sourcePath = '@bower/ratchet/dist';
     public $basePath = '@webroot/assets';
     public $css = [
         'css/ratchet-theme-android.css',
@@ -19,5 +18,4 @@ class RatchetAndroidAsset extends AssetBundle
     public $depends = [
         'xj\ratchet\RatchetAsset',
     ];
-
 }

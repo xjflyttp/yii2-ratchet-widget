@@ -10,8 +10,7 @@ use yii\web\AssetBundle;
  */
 class RatchetIosAsset extends AssetBundle
 {
-
-    public $sourcePath = '@bower/ratchet';
+    public $sourcePath = '@bower/ratchet/dist';
     public $basePath = '@webroot/assets';
     public $css = [
         'css/ratchet-theme-ios.css',
@@ -19,5 +18,4 @@ class RatchetIosAsset extends AssetBundle
     public $depends = [
         'xj\ratchet\RatchetAsset',
     ];
-
 }
