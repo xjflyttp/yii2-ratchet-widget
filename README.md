@@ -5,7 +5,7 @@
 ## composer.json
 ```json
 "require": {
-    "yii2-ratchet-widget": "~1.0.0"
+    "xj/yii2-ratchet-widget": "~1.0.0"
 }
 ```
 
