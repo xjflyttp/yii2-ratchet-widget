@@ -11,7 +11,6 @@ use yii\web\AssetBundle;
 class RatchetIosAsset extends AssetBundle
 {
     public $sourcePath = '@bower/ratchet/dist';
-    public $basePath = '@webroot/assets';
     public $css = [
         'css/ratchet-theme-ios.css',
     ];
